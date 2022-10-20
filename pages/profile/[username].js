@@ -1,14 +1,16 @@
 import { useRouter } from 'next/router';
 import React from 'react';
 
-export default function username() {
+export default function UserProfile() {
   const router = useRouter();
-  console.log(router.query);
+  console.log(router);
   const { username } = router.query;
+  console.log(router.query);
+
   return (
     <div>
-      <h1>Username</h1>
-      <p>hello{username}</p>
+      <h1>UserProfile</h1>
+      <p> Hello {username} </p>
     </div>
   );
 }
