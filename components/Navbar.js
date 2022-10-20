@@ -14,7 +14,7 @@ export default function Navbar() {
         <Link href="../profile/profile">
           <a>Profile</a>
         </Link>
-        <Link href="../coins/coin">
+        <Link href="../coins">
           <a>Coin</a>
         </Link>
       </div>

@@ -20,9 +20,6 @@ export default function Home() {
         <Link href="../profile/profile">
           <a className="text-xl hover:text-blue-600"> profile</a>
         </Link>
-        <Link href="../coins/coin">
-          <a className="text-xl hover:text-blue-600"> coin</a>
-        </Link>
       </main>
 
       <footer className={styles.footer}>
